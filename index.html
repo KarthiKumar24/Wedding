@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
   <style>
     body {
-      background-color: #fefbf6;
+      background-color: #fffaf7;
       background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
       font-family: Arial, sans-serif;
       text-align: center;
@@ -35,15 +35,21 @@
       margin-bottom: 10px;
     }
 
+    .video-frame {
+      display: inline-block;
+      padding: 15px;
+      background: url('https://i.ibb.co/9TtJgDY/floral-border.png') center center no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+      box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
+    }
+
     .video-container {
       width: 660px;
       height: 370px;
-      margin: 30px auto;
       background: #000;
-      border: 8px solid #dcbfbf;
       border-radius: 12px;
       overflow: hidden;
-      box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
     }
 
     .video-container iframe {
@@ -77,10 +83,110 @@
   <h1>💖 Beryl & Stephen's Wedding Live 💖</h1>
   <p>Thank you for joining us on this special day!</p>
 
-  <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/vMIvfdP6Fto?autoplay=1&controls=0&modestbranding=1&rel=0"
-      frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-    </iframe>
+  <div class="video-frame">
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/vMIvfdP6Fto?autoplay=1&controls=0&modestbranding=1&rel=0"
+        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+      </iframe>
+    </div>
+  </div>
+
+  <p>We are so happy to have you watch and celebrate with us!</p>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beryl & Stephen's Wedding Live</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #fffaf7;
+      background-image: url('https://www.transparenttextures.com/patterns/cubes.png');
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+      animation: fadeIn 2s ease;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      color: #a14c4c;
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .video-frame {
+      display: inline-block;
+      padding: 15px;
+      background: url('https://i.ibb.co/9TtJgDY/floral-border.png') center center no-repeat;
+      background-size: cover;
+      border-radius: 20px;
+      box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
+    }
+
+    .video-container {
+      width: 660px;
+      height: 370px;
+      background: #000;
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    .video-container iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    p {
+      font-size: 20px;
+      margin-top: 25px;
+      color: #444;
+    }
+
+    @media (max-width: 700px) {
+      .video-container {
+        width: 95%;
+        height: auto;
+        aspect-ratio: 16/9;
+      }
+
+      h1 {
+        font-size: 36px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>💖 Beryl & Stephen's Wedding Live 💖</h1>
+  <p>Thank you for joining us on this special day!</p>
+
+  <div class="video-frame">
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/vMIvfdP6Fto?autoplay=1&controls=0&modestbranding=1&rel=0"
+        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+      </iframe>
+    </div>
   </div>
 
   <p>We are so happy to have you watch and celebrate with us!</p>
